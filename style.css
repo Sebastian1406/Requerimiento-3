@@ -1,0 +1,49 @@
+h1{
+  text-align: center;
+  margin: 0px;
+}
+fieldset{
+  border: solid 2px black;
+}
+
+label{
+  display: inline-block ;
+  font-family: sans-serif;
+  font-weight: 600;
+  min-width: 80px;
+}
+
+#buscar{
+  padding: 2px 5px;
+  font-family: cursive;
+  font-weight: 700;
+  background-color: rgba(26, 26, 223, 0.856);
+  cursor: pointer;
+  color: white;
+}
+.style-boton{
+  background-color: rgb(27, 187, 166);
+  border: 1px solid ;
+  cursor: pointer;
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+th{
+  background-color: teal;
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+td{
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}

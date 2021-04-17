@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/99c003c808.js" crossorigin="anonymous"></script>
+    <title>Requerimiento 3</title>
+</head>
+
+<body>
+    <h1>Listados de producto</h1>
+
+    <form action="#">
+        <fieldset>
+            <legend>Filtros</legend>
+
+            <label for="categoria">Categoria</label>
+
+            <select name="categorias" id="categorias">
+                <option value="" disabled selected>Seleccione una categoria...</option>            
+            </select>
+            
+            <label>Nombre producto:</label>
+
+            <input type="text" id="nombreDeProducto">
+
+            <button id="buscar" type="button">Buscar</button>
+
+
+        </fieldset>
+
+    </form>
+
+    <br>
+    <table>
+        <tr>
+            <th>Codigo</th>
+            <th>Producto</th>
+            <th>Categoria</th>
+            <th>Precio</th>
+            <th>Proveedor</th>
+            <th>Opciones</th>
+        </tr>
+        <tbody id="contenido"></tbody>
+    </table>
+
+
+    <script src="index.js"></script>
+</body>
+
+</html>
